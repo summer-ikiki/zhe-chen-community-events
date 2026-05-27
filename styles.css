@@ -717,10 +717,30 @@ li strong,
 }
 
 .platform-heading > img,
+.platform-heading > svg,
+.education-list h3 > svg,
+.compact-grid strong > svg,
+.skills-grid h3 > svg,
 .logo-stack img {
   flex: 0 0 auto;
   height: 22px;
   width: 22px;
+}
+
+.platform-heading > svg,
+.education-list h3 > svg,
+.compact-grid strong > svg,
+.skills-grid h3 > svg {
+  color: var(--red);
+  stroke-width: 2.2;
+}
+
+.education-list h3,
+.compact-grid strong,
+.skills-grid h3 {
+  align-items: center;
+  display: flex;
+  gap: 9px;
 }
 
 .text-logo {
