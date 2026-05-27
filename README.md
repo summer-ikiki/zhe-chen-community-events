@@ -2,6 +2,8 @@
 
 Static resume website for AI-native community, events, creator ecosystem, and North America growth roles.
 
+Live site: https://summer-ikiki.github.io/zhe-chen-community-events/
+
 ## Files
 
 - `index.html` - main page
